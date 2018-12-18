@@ -19,7 +19,7 @@
         if (media>=6){
             JOptionPane.showMessageDialog(null,"Aluno " +nome+"\n"+"A media do aluno(a) eh "+media+"\n"+"Aluno(a) Aprovado.","Situacao do Aluno(a)",JOptionPane.INFORMATION_MESSAGE);
         }else{
-            JOptionPane.showMessageDialog(null,"Aluno " +nome+"\n"+"A media do aluno(a) eh  "+media+"\n"+"Devera fazer Prova Substituta."+"\n"+"Pressione ok para digitar a nota da sub.","Situação do Aluno(a)", JOptionPane.WARNING_MESSAGE);
+            JOptionPane.showMessageDialog(null,"Aluno " +nome+"\n"+"A media do aluno(a) eh  "+media+"\n"+"Devera fazer Prova Substituta."+"\n"+"Pressione ok para digitar a nota da sub.","Situacao do Aluno(a)", JOptionPane.WARNING_MESSAGE);
             //Recebendo e convertendo valor
             nsub = JOptionPane.showInputDialog("Digite a nota da Substitutiva");
             sub = Double.parseDouble(nsub);
